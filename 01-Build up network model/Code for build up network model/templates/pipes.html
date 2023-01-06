@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Pipes{% endblock %}
+{% block body %}
+<h1>Pipes</h1>
+<table class="pipes" border="1">
+  <tr>
+    <th>ID</th>
+    <th>Node1</th>
+    <th>Node2</th>
+    <th>Length</th>
+    <th>Diameter</th>
+  </tr>
+  {% for pipe in pipes %}
+  <tr>
+    <td><a href="{{url_for('pipe_details', id=pipe.id)}}">{{pipe.id}}</a></td>
+    <td>{{pipe.node1.id}}</td>
+    <td>{{pipe.node2.id}}</td>
+    <td>{{"%.2f"|format(pipe.geometry.length)}}</td>
+    <td>{{"%.2f"|format(pipe.diameter)}}</td>
+  </tr>
+  {% endfor %}
+{% endblock %}

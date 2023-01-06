@@ -1,0 +1,14 @@
+*.pyc
+*~
+tmp
+.DS_Store
+*.swp
+ve
+data
+*.inp
+*.pickle
+.ipynb_checkpoints
+check
+secrets.py
+*.log
+config.py

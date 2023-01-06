@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}EPANET-Prep Visualization{% endblock %}
+{% block body %}
+<h1>EPANET-Prep Visualization</h1>
+
+<h2>Available Queries</h2>
+<ul>
+  {% for q,info in queries.items() %}
+  <li>{{info['desc']}}
+    [<a href="{{ url_for('pipe_list', name=q) }}">pipes</a>]
+    [<a href="{{ url_for('node_list', name=q) }}">nodes</a>]
+    [<a href="{{ url_for('view_map', name=q) }}">map</a>]
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

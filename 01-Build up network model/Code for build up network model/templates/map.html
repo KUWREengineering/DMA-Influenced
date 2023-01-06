@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Map: {{map_name}}{% endblock %}
+{% block body %}
+<h1>Map: {{map_name}}</h1>
+
+<div id="map" style="width:100%; height:500px"></div>
+
+<script>
+{% include 'include/map-script.js' %}
+</script>
+
+{% endblock %}

@@ -1,0 +1,132 @@
+  Page 1                                    Fri Dec 09 10:37:06 2022
+
+  ******************************************************************
+  *                           E P A N E T                          *
+  *                   Hydraulic and Water Quality                  *
+  *                   Analysis for Pipe Networks                   *
+  *                         Version 2.00.12                        *
+  ******************************************************************
+  
+  Analysis begun Fri Dec 09 10:37:06 2022
+
+  WARNING: Negative pressures at 0:00:00 hrs.
+  
+  WARNING: Negative pressures at 1:00:00 hrs.
+  
+  WARNING: Negative pressures at 2:00:00 hrs.
+  
+  WARNING: Negative pressures at 3:00:00 hrs.
+  
+  WARNING: Negative pressures at 4:00:00 hrs.
+  
+  WARNING: Negative pressures at 5:00:00 hrs.
+  
+  WARNING: Negative pressures at 6:00:00 hrs.
+  
+  WARNING: Negative pressures at 7:00:00 hrs.
+  
+  WARNING: Negative pressures at 8:00:00 hrs.
+  
+  WARNING: Negative pressures at 9:00:00 hrs.
+  
+  WARNING: Negative pressures at 10:00:00 hrs.
+  
+  WARNING: Negative pressures at 11:00:00 hrs.
+  
+  WARNING: Negative pressures at 12:00:00 hrs.
+  
+  WARNING: Negative pressures at 13:00:00 hrs.
+  
+  WARNING: Negative pressures at 14:00:00 hrs.
+  
+  WARNING: Negative pressures at 15:00:00 hrs.
+  
+  WARNING: Negative pressures at 16:00:00 hrs.
+  
+  WARNING: Negative pressures at 17:00:00 hrs.
+  WARNING: Node 11753 disconnected at 17:00:00 hrs
+  WARNING: Node 11754 disconnected at 17:00:00 hrs
+  WARNING: Node 3128 disconnected at 17:00:00 hrs
+  WARNING: Node 3129 disconnected at 17:00:00 hrs
+  WARNING: Node 3130 disconnected at 17:00:00 hrs
+  WARNING: Node 3959 disconnected at 17:00:00 hrs
+  WARNING: Node 9856 disconnected at 17:00:00 hrs
+  WARNING: Node 9857 disconnected at 17:00:00 hrs
+  WARNING: Node VAL-1150-1 disconnected at 17:00:00 hrs
+  WARNING: Node VAL-1257-1 disconnected at 17:00:00 hrs
+  WARNING: 1 additional nodes disconnected at 17:00:00 hrs
+  WARNING: System disconnected because of Link VAL-1150
+  
+  WARNING: Negative pressures at 18:00:00 hrs.
+  
+  WARNING: Negative pressures at 19:00:00 hrs.
+  WARNING: Node 11753 disconnected at 19:00:00 hrs
+  WARNING: Node 11754 disconnected at 19:00:00 hrs
+  WARNING: Node 3128 disconnected at 19:00:00 hrs
+  WARNING: Node 3129 disconnected at 19:00:00 hrs
+  WARNING: Node 3130 disconnected at 19:00:00 hrs
+  WARNING: Node 3959 disconnected at 19:00:00 hrs
+  WARNING: Node 9856 disconnected at 19:00:00 hrs
+  WARNING: Node 9857 disconnected at 19:00:00 hrs
+  WARNING: Node VAL-1150-1 disconnected at 19:00:00 hrs
+  WARNING: Node VAL-1257-1 disconnected at 19:00:00 hrs
+  WARNING: 1 additional nodes disconnected at 19:00:00 hrs
+  WARNING: System disconnected because of Link VAL-1150
+  
+  WARNING: Negative pressures at 20:00:00 hrs.
+  WARNING: Node 11753 disconnected at 20:00:00 hrs
+  WARNING: Node 11754 disconnected at 20:00:00 hrs
+  WARNING: Node 3128 disconnected at 20:00:00 hrs
+  WARNING: Node 3129 disconnected at 20:00:00 hrs
+  WARNING: Node 3130 disconnected at 20:00:00 hrs
+  WARNING: Node 3959 disconnected at 20:00:00 hrs
+  WARNING: Node 9856 disconnected at 20:00:00 hrs
+  WARNING: Node 9857 disconnected at 20:00:00 hrs
+  WARNING: Node VAL-1150-1 disconnected at 20:00:00 hrs
+  WARNING: Node VAL-1257-1 disconnected at 20:00:00 hrs
+  WARNING: 1 additional nodes disconnected at 20:00:00 hrs
+  WARNING: System disconnected because of Link VAL-1150
+  
+  WARNING: Negative pressures at 21:00:00 hrs.
+  WARNING: Node 11753 disconnected at 21:00:00 hrs
+  WARNING: Node 11754 disconnected at 21:00:00 hrs
+  WARNING: Node 3128 disconnected at 21:00:00 hrs
+  WARNING: Node 3129 disconnected at 21:00:00 hrs
+  WARNING: Node 3130 disconnected at 21:00:00 hrs
+  WARNING: Node 3959 disconnected at 21:00:00 hrs
+  WARNING: Node 9856 disconnected at 21:00:00 hrs
+  WARNING: Node 9857 disconnected at 21:00:00 hrs
+  WARNING: Node VAL-1150-1 disconnected at 21:00:00 hrs
+  WARNING: Node VAL-1257-1 disconnected at 21:00:00 hrs
+  WARNING: 1 additional nodes disconnected at 21:00:00 hrs
+  WARNING: System disconnected because of Link VAL-1150
+  
+  WARNING: Negative pressures at 22:00:00 hrs.
+  WARNING: Node 11753 disconnected at 22:00:00 hrs
+  WARNING: Node 11754 disconnected at 22:00:00 hrs
+  WARNING: Node 3128 disconnected at 22:00:00 hrs
+  WARNING: Node 3129 disconnected at 22:00:00 hrs
+  WARNING: Node 3130 disconnected at 22:00:00 hrs
+  WARNING: Node 3959 disconnected at 22:00:00 hrs
+  WARNING: Node 9856 disconnected at 22:00:00 hrs
+  WARNING: Node 9857 disconnected at 22:00:00 hrs
+  WARNING: Node VAL-1150-1 disconnected at 22:00:00 hrs
+  WARNING: Node VAL-1257-1 disconnected at 22:00:00 hrs
+  WARNING: 1 additional nodes disconnected at 22:00:00 hrs
+  WARNING: System disconnected because of Link VAL-1150
+  
+  WARNING: Negative pressures at 23:00:00 hrs.
+  WARNING: Node 11753 disconnected at 23:00:00 hrs
+  WARNING: Node 11754 disconnected at 23:00:00 hrs
+  WARNING: Node 3128 disconnected at 23:00:00 hrs
+  WARNING: Node 3129 disconnected at 23:00:00 hrs
+  WARNING: Node 3130 disconnected at 23:00:00 hrs
+  WARNING: Node 3959 disconnected at 23:00:00 hrs
+  WARNING: Node 9856 disconnected at 23:00:00 hrs
+  WARNING: Node 9857 disconnected at 23:00:00 hrs
+  WARNING: Node VAL-1150-1 disconnected at 23:00:00 hrs
+  WARNING: Node VAL-1257-1 disconnected at 23:00:00 hrs
+  WARNING: 1 additional nodes disconnected at 23:00:00 hrs
+  WARNING: System disconnected because of Link VAL-1150
+  
+  Analysis ended Fri Dec 09 10:37:07 2022

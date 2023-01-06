@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% block extrahead %}
+    {% endblock %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+  <style>
+    table.pipes {
+      border-collapse: collapse;
+    }
+    table.pipes tr th {
+      padding: 5px;
+      text-align: center;
+      background: yellow;
+    }
+    table.pipes tr td {
+      padding-left: 5px;
+      padding-right: 5px;
+      text-align: center;
+    }
+    table.pipe-details {
+      border-collapse: collapse;
+    }
+    table.pipe-details tr th {
+      padding: 5px;
+      text-align: left;
+      background: yellow;
+    }
+    table.pipe-details tr td {
+      padding: 5px;
+      text-align: left;
+    }
+    table.nodes {
+      border-collapse: collapse;
+    }
+    table.nodes tr th {
+      padding: 5px;
+      text-align: center;
+      background: yellow;
+    }
+    table.nodes tr td {
+      padding-left: 5px;
+      padding-right: 5px;
+      text-align: center;
+    }
+    div#map {
+      margin-top: 10px;
+      height: 400px;
+      width: 400px;
+    }
+  </style>
+
+  <script>
+  var pipeOptions = { color: "red", weight: 5 };
+  var nodeOptions = {
+    pointToLayer: function(geoJsonPoint, latlng) {
+      if (isNaN(geoJsonPoint.id.charAt(0))) { // this is a U/UZ
+        return L.circleMarker(latlng, { 
+          radius: 6,
+          weight: 2,
+          color: "green",
+          fillColor: "green",
+          fillOpacity: 0.5,
+        });
+      }
+      else {
+        return L.circleMarker(latlng, { 
+          radius: 4,
+          weight: 2,
+          color: "orange",
+          fillColor: "orange",
+          fillOpacity: 0.5,
+        });
+      }
+    }
+  };
+  </script>
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+    {% block extrafoot %}{% endblock %}
+  </body>
+</html>

@@ -1,0 +1,14 @@
+DATA_DIR = "data"
+LOG_LEVEL = "WARNING"  # can be DEBUG, INFO, WARNING, or CRITICAL
+YEAR = 2564            # in B.E., used for computing roughness
+
+ROUGHNESS_RATE = 1.0
+MAX_DM_DISTANCE = 50              # meters, used to flag the DM distance over this threshold
+DEFAULT_DM_VALVE_SIZE = 300       # mm, used in case there is no pipe_size
+DEFAULT_RESV_VALVE_SIZE = 300     # mm, used in case diameter is not known
+DEFAULT_PIPE_DIAMETER_SIZE = 1000 # mm, used in case the diameter is zero
+SNAP_THRESHOLD = 0.5              # meters, for snapping nearby coordinates together
+VALVE_ON_MAIN_THRESHOLD = 10      # meters, max distance for valve from the closest main pipe
+NODE_COORDS_DECIMAL_PLACES = 2    # decimal places used for rounding nodes' coordinates
+SNAP_PIPE_LENGTH_THRESHOLD = 0.5  # meters, for filtering pipes to snap disconnected points
+SNAP_PIPE_MAX_DISTANCE = 0.5      # meters, distance threshold for pipe snapping

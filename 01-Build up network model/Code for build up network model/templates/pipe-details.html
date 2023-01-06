@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Pipe Details: {{pipe.id}}{% endblock %}
+{% block body %}
+<h1>Pipe Details: {{pipe.id}}</h1>
+<div style="display: flex; align-items: flex-start">
+  <table class="pipe-details" border="1">
+    <tr>
+      <th>ID:</th>
+      <td>{{pipe.id}}</td>
+    </tr>
+    <tr>
+      <th>ObjectID:</th>
+      <td>{{pipe.objectid}}</td>
+    </tr>
+    <tr>
+      <th>Length:</th>
+      <td>{{pipe.geometry.length|round(2)}} m</td>
+    </tr>
+    <tr>
+      <th>Diameter:</th>
+      <td>{{pipe.diameter}}</td>
+    </tr>
+    <tr>
+      <th>Node1:</th>
+      <td><a href="{{ url_for('node_details', id=pipe.node1.id) }}">{{pipe.node1.id}}</a></td>
+    </tr>
+    <tr>
+      <th>Node2:</th>
+      <td><a href="{{ url_for('node_details', id=pipe.node2.id) }}">{{pipe.node2.id}}</a></td>
+    </tr>
+  </table>
+
+  <div id="map" style="width:80%; height:500px; margin-left: 10px"></div>
+</div>
+<script>
+{% include 'include/map-script.js' %}
+</script>
+
+{% endblock %}

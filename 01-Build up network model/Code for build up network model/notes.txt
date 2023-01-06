@@ -1,0 +1,5 @@
+Notes
+=====
+* Pipe 14146's geometry is self-crossed
+    * This causes shapely's split() to behave incorrectly
+    * complex_split() has been used instead
